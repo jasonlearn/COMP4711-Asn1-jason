@@ -39,5 +39,7 @@ class History extends Application {
     
     private function display_page($transactions)
     {
+        $result .= $this->parser->parse('transaction', (array) $transaction, true);
     }
+    $this->data['']
 }
